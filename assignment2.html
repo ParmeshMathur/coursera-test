@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>module2-solution</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Helvetica;
+		}
+
+		h1 {
+			margin-top: 20px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+
+		div.parag {
+			margin: 10px;
+			background-color: gray;
+			border: 2px solid black;
+		}
+
+		p {
+			padding-left: 15px;
+			padding-top: 30px;
+		}
+
+		.subtopic {
+			position: relative;
+			height: 40px;
+			width: 90px;
+			margin: 0px;
+			padding: 5px 0px 5px 0px;
+			border: 2px solid black;
+			text-align: center;
+			float: right;
+		}
+
+		#st1 {
+			background-color: #ffff88;
+			position: relative;
+			right: 0px;
+		}
+
+		#st2 {
+			background-color: #88ffff;
+			position: relative;
+			right: 0px;
+		}
+
+		#st3 {
+			background-color: #ff88ff;
+			position: relative;
+			right: 0px;
+		}
+
+		@media (min-width: 992px) {
+		  .col-lg-4 {
+		    float: left;
+		    width: 33.33%;
+		  }
+		}
+
+		/********** Medium devices only **********/
+		@media (min-width: 768px) and (max-width: 991px) {
+		  .col-md-6, .col-md-12 {
+		    float: left;
+		  }
+		  .col-md-6 {
+		    width: 50%;
+		  }
+		  .col-md-12 {  
+		    width: 100%;
+		  }
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="col-lg-4 col-md-6">
+		<div class="parag">
+
+		<header class="subtopic" id="st1">I can't</header>
+
+		<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboriosa fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+		</div>
+	</div>
+
+	<div class="col-lg-4 col-md-6">
+		<div class="parag">
+
+		<header class="subtopic" id="st2">think of</header>
+
+		<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboriosa fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+		</div>
+	</div>
+
+	<div class="col-lg-4 col-md-12">
+		<div class="parag">
+
+		<header class="subtopic" id="st3">good titles</header>
+
+		<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboriosa fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+		</div>
+	</div>
+</body>
+</html>
